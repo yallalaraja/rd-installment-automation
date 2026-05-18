@@ -1,0 +1,51 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage / tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit local config and logs
+.streamlit/secrets.toml
+.streamlit*.log
+.streamlit*.err
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+
+# Application logs / generated files
+logs/*.log
+*.log
+*.tmp
+*.bak
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
